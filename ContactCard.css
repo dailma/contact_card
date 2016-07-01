@@ -1,0 +1,43 @@
+div#container {
+	width: 820px;
+	padding: 20px;
+	font-family: Calibri,Helvetica,sans-serif;
+}
+	div#form_adduser {
+		width: 35%;
+		display: inline-block;
+	}
+		div#form_adduser label {
+			display: inline-block;
+			font-weight: bold;
+		}
+		div#form_adduser input {
+			display: inline;
+		}
+		div#form_adduser input[type=text] {
+			width: 200px;
+		}
+		div#form_adduser input#namelast {
+			margin-left: 3px;
+		}
+		div#form_adduser label[for=descrip] {
+			margin-top: 10px;
+		}
+		div#form_adduser textarea {
+			width: 275px;
+			height: 50px;
+			display: block;
+		}
+	div#cards {
+		width: 60%;
+		display: inline-block;
+		vertical-align: top;
+	}
+		div#cards div.card {
+			width: 235px;
+			margin: 0 5px 5px 0;
+			display: inline-block;
+			border: thin solid black;
+			border-radius: 3px;
+			text-align: center;
+		}
